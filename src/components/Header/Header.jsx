@@ -15,7 +15,6 @@ const Header = () => {
               <li>
                 <img src={NetflixLogo} alt="Netflix Logo" widith="100" />
               </li>
-              <li>Netflix</li>
               <li>Home</li>
               <li>TVShows</li>
               <li>Movies</li>
