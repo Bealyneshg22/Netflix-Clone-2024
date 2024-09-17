@@ -1,5 +1,5 @@
 .header_outer_container{
-    position: sticky;
+    position:fixed;
     top: 0;
     display: flex;
     justify-content: center;
@@ -25,28 +25,29 @@
     align-items: center;
     /* background-color: yellow; */
 }
-.header_left ul{
+.header_left1 ul{
     width: 140%;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-between;
 }
-.header_left img {
+.header_left1 img {
     height: 40px;
 
 }
-.header_left ul li {
+.header_left1 ul li {
     list-style: none;
     margin-right: 15px;
-}
-.header_right ul {
-    display: flex;
-    justify-content: center;
-    /* margin-right: 15px; */
-    margin: 0;
 
 }
-.header_right ul li {
+.header_right2 ul {
+    display: flex;
+    justify-content:space-between;
+    /* margin-right: 15px; */
+    /* margin: 0; */
+margin-left: 700px;
+}
+.header_right2 ul li {
     list-style: none;
     margin-right: 15px;
 }
